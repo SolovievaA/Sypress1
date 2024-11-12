@@ -1,0 +1,18 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "first tests with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "note:headed": "cypress run --browser edge --headed cypress.config.js",
+    "note:headless": "cypress run --browser chrome --headless cypress.config.js",
+    "mobile:headed": "cypress run --browser chrome --headed cypress2.config.js",
+    "mobile:headless": "cypress run --browser edge --headless cypress2.config.js"
+  },
+  "author": "Solovieva Alla",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.13.3",
+    "@faker-js/faker": "^8.4.1"
+  }
+}
